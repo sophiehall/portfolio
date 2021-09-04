@@ -1,0 +1,551 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1600px) {
+  #main {
+    height: 980px;
+  }
+  div.image-grid {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  .mob-browser-bar {
+    height: 4rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+  }
+  .mob-browser-bar-bottom {
+    height: 4rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  /* TO DO: Check on larger monitor if we need a style for this */
+  .img-contain {
+    background-size: contain;
+  }
+  .img-contain img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .slide-menu {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .home-copy {
+    left: 88px;
+    right: 88px;
+  }
+  p.p-xl {
+    font-size: 32px;
+  }
+  p.normal-p {
+    font-size: 18px;
+  }
+  .section-pad {
+    padding-bottom: 88px;
+  }
+  footer p,
+  #footer a {
+    font-size: 18px;
+  }
+  .top-pad {
+    padding-top: 88px;
+  }
+  .section-pad {
+    padding-bottom: 88px;
+  }
+  .two-image-container {
+    padding-left: 88px;
+    padding-right: 88px;
+  }
+  div.project-description-container {
+    padding: 88px;
+  }
+  .device-container {
+    padding: 88px;
+  }
+  div.annotation-container {
+    padding: 40px 88px 88px 88px;
+  }
+  .full-width-section {
+    padding-left: 88px;
+    padding-right: 88px;
+  }
+  .img-container {
+    padding-left: 88px;
+    padding-right: 88px;
+  }
+  #main {
+    height: 500px;
+  }
+  .project-intro {
+    width: 100%;
+  }
+  .project-details {
+    padding-left: 10%;
+    padding-top: 0;
+    margin-top: 5px;
+  }
+  .circle-1 {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 48px;
+    transform: translateY(-160px);
+  }
+  .circle-2 {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 48px;
+    transform: translateY(140px);
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  p.p-xl {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #main {
+    height: 50vh;
+  }
+  .home-copy {
+    top: 55%;
+    left: 48px;
+    right: 48px;
+  }
+  .project-links li {
+    margin-bottom: 10px;
+  }
+  div.project-description-container {
+    padding: 80px 48px;
+  }
+  .page-layout {
+    padding-top: 20vh;
+    padding-bottom: 80px;
+    padding-left: 48px;
+    padding-right: 48px;
+    height: 100%;
+  }
+  p.normal-p {
+    font-size: 16px;
+  }
+
+  div.body-main p.normal-p {
+    margin-left: 0px;
+  }
+
+  .annotation {
+    font-size: 14px;
+  }
+  .full-width-section {
+    padding: 0 48px;
+  }
+  .top,
+  .bottom,
+  .left,
+  .right {
+    display: none;
+  }
+  div.img-container {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  div.image-grid img {
+    padding: 0 0 24px 0;
+  }
+  .img-container {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .two-image-container {
+    padding: 80px 48px;
+  }
+  .mobile-device {
+    padding: 80px 48px;
+  }
+  .mob-browser-bar {
+    height: 3rem;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+  }
+  .mob-browser-bar-bottom {
+    height: 3rem;
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+  }
+  .top-pad {
+    padding-top: 80px;
+  }
+  .section-pad {
+    padding-bottom: 80px;
+  }
+  .device-container {
+    padding: 48px;
+  }
+  div.annotation-container {
+    padding: 24px 48px 80px 48px;
+  }
+  .circle-1 {
+    padding: 0;
+    transform: translateY(-140px);
+  }
+  .circle-2 {
+    padding: 0;
+    transform: translateY(100px);
+  }
+  div.image-grid {
+    padding: 0;
+  }
+  .column {
+    flex: 1 0 100%;
+  }
+  .row {
+    display: block;
+  }
+  .page-layout {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .footer {
+    padding: 48px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .project-links {
+    font-size: 52px;
+  }
+  div.project-description-container {
+    flex-direction: column;
+  }
+  .project-intro {
+    width: 100%;
+  }
+  .slide-menu {
+    width: 100vw;
+  }
+  .project-details {
+    padding-left: 0%;
+  }
+  p.p-xl {
+    padding-bottom: 32px;
+    padding-right: 0;
+  }
+  div.project-description {
+    width: 100%;
+  }
+  img.right-column {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .hide-word {
+    display: none;
+  }
+  .body-main {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home-copy {
+    top: 55%;
+    left: 24px;
+    right: 24px;
+  }
+  #main {
+    height: 100%;
+  }
+  .project-links {
+    font-size: 40px;
+  }
+  .project-links li {
+    margin-bottom: 12px;
+  }
+  .section-pad {
+    padding-bottom: 48px;
+  }
+  .top-pad {
+    padding-top: 48px;
+  }
+  div.annotation-container {
+    padding: 48px 24px;
+  }
+  div.project-description-container {
+    padding: 48px 24px;
+  }
+  div.img-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .img-container {
+    flex-direction: column;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .device-container {
+    padding: 48px 24px;
+  }
+  .img-50-right {
+    width: 100%;
+  }
+  .img-50-left {
+    width: 100%;
+  }
+  img.img-50-right,
+  img.img-50-left {
+    padding: 24px 0 0 0;
+    margin: 0;
+  }
+  .page-layout {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  section.all-work-grid {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .browser-bar {
+    height: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  .mobile-device {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    width: 100%;
+  }
+  .mob-browser-bar {
+    height: 3.5rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+  }
+  .mob-browser-bar-bottom {
+    height: 3.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+  }
+  h2.client-title {
+    padding: 48px 24px;
+  }
+  header #home {
+    top: 24px;
+    width: 100vw;
+  }
+  .sitetitle {
+    padding-left: 24px;
+    padding-top: 24px;
+  }
+  .hamburger {
+    top: 24px;
+    right: 24px;
+  }
+  .scroll-down {
+    right: 24px;
+    bottom: 48px;
+  }
+  .main-nav {
+    left: 24px;
+  }
+  .social {
+    margin-left: 24px;
+  }
+  .prev-next-section {
+    height: 20vh;
+  }
+  .prev-next-section div {
+    margin: 24px;
+  }
+  .footer {
+    padding: 24px;
+  }
+  .footer-details {
+    width: 70%;
+    padding-bottom: 24px;
+  }
+  p.last {
+    padding-bottom: 24px;
+  }
+  .full-width-section {
+    padding: 0 24px;
+  }
+  .footer-copyright {
+    bottom: 24px;
+  }
+  footer p,
+  #footer a {
+    font-size: 16px;
+  }
+  .scroll-up-div {
+    right: 24px;
+    bottom: 24px;
+  }
+  a.js-scroll.scroll-up {
+    height: 27px;
+    width: 25px;
+    bottom: 24px;
+    right: 34px;
+    position: absolute;
+  }
+  .mobile.flex {
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0 48px;
+  }
+  .two-image-container {
+    padding: 0 24px;
+  }
+  img.whi-banner-1 {
+    width: 300px;
+    height: 270px;
+    margin: 0 auto 48px;
+  }
+  img.whi-banner-2 {
+    display: none;
+  }
+  img.whi-banner-3 {
+    width: 300px;
+    height: 600px;
+    margin: auto;
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sitetitle {
+    font-size: 14px;
+    line-height: 1;
+  }
+  .hamburger {
+    width: 30px;
+    position: fixed;
+  }
+  .hamburger .line {
+    width: 30px;
+    margin: 2.7px auto;
+  }
+  .hamburger .line:nth-child(2) {
+    width: 0px;
+  }
+  .hamburger.is-active .line:nth-child(1) {
+    -webkit-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+  .hamburger.is-active .line:nth-child(3) {
+    -webkit-transform: translateY(-5px) rotate(90deg);
+    -ms-transform: translateY(-5px) rotate(90deg);
+    -o-transform: translateY(-5px) rotate(90deg);
+    transform: translateY(-5px) rotate(90deg);
+  }
+  .main-nav {
+    padding-top: 0px;
+  }
+  .main-nav a {
+    font-size: 40px;
+  }
+  .home-copy {
+    left: 24px;
+    right: 24px;
+    top: 55%;
+  }
+  .project-links {
+    line-height: 1.4;
+    font-size: 24px;
+  }
+  .project-links li {
+    margin-bottom: 16px;
+  }
+  p.subheading {
+    font-size: 14px;
+  }
+  .heading-large {
+    font-size: 48px;
+  }
+  .mob-browser-bar-bottom {
+    height: 2.8rem;
+  }
+  .mob-browser-bar {
+    height: 2.8rem;
+  }
+  .browser-bar {
+    height: 1.2rem;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+  }
+  .wrapper-parallax {
+    margin-bottom: 60vh;
+  }
+  .xl-underline {
+    border-bottom: 1.2px solid currentColor;
+    line-height: 0.8;
+  }
+  p.p-xl {
+    font-size: 24px;
+  }
+  footer {
+    height: 60vh;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-social {
+    text-align: left;
+  }
+  footer p,
+  #footer a {
+    font-size: 16px;
+    text-align: left;
+  }
+  .feathers-top-left {
+    top: -31px;
+    left: -34vw;
+  }
+  .feathers-top-right {
+    top: -40px;
+    right: -170px;
+  }
+  .feathers-bottom-left {
+    bottom: -90px;
+    left: -32px;
+  }
+  .feathers-bottom-right {
+    bottom: -50px;
+    right: -40px;
+  }
+  .block {
+    background: #ffff;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 48px;
+  }
+  img.whi-banner-1 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto 24px;
+  }
+  img.whi-banner-2 {
+    display: none;
+  }
+  img.whi-banner-3 {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    align-self: flex-end;
+  }
+  .img-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}

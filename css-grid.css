@@ -1,0 +1,199 @@
+/* Grid loading animation */
+.grid-load {
+  transform: scale(0);
+  animation: scaleUp 0.5s ease-in-out forwards;
+}
+
+@keyframes scaleUp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Grid styles */
+section.all-work-grid {
+  max-width: 2600px;
+  display: grid;
+  grid-gap: 24px 24px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 168px;
+
+  grid-template-rows: repeat(15, minmax(168px, auto));
+  margin: auto;
+  margin-left: 112px;
+  margin-right: 112px;
+  padding-bottom: 112px;
+}
+
+div.all-work {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+div.all-work a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+div.all-work.portrait.small {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+div.all-work.large {
+  grid-column: span 2;
+  grid-row: span 3;
+}
+
+div.all-work.xl {
+  grid-column: span 3;
+  grid-row: span 4;
+}
+
+div.all-work.image-1,
+div.all-work.image-2,
+div.all-work.image-4,
+div.all-work.image-5,
+div.all-work.image-6,
+div.all-work.image-8,
+div.all-work.image-9,
+div.all-work.image-11 {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-origin: content-box;
+  padding: 32px;
+}
+
+div.all-work.image-3,
+div.all-work.image-7,
+div.all-work.image-10,
+div.all-work.image-12 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-1 {
+  background-image: url("images/whi-specimen-static.png");
+  background-color: #222222;
+}
+
+.image-1:hover {
+  background-image: url("images/whi-specimen-2x.gif");
+}
+
+.image-2 {
+  background-image: url("images/thumb-dg.png");
+  background-color: #f4f4f4;
+}
+
+.image-3 {
+  background-image: url("images/feathers.png");
+  background-color: #f74e77;
+}
+
+.image-4 {
+  background-image: url("images/thumb-whispir-brand.png");
+  background-color: #000;
+}
+
+.image-5 {
+  background-image: url("images/whi-blog-mob-dark-2x.png");
+  background-color: #f4f4f4;
+}
+
+.image-6 {
+  background-image: url("images/hackathon-header.png");
+  background-color: #7523e9;
+}
+
+.image-7 {
+  background-image: url("images/thumb-melb-uncov.png");
+  background-color: #000;
+}
+
+.image-8 {
+  background-image: url("images/thumb-drax.png");
+  background-color: #000;
+}
+
+.image-9 {
+  background-image: url("images/thumb-mp.png");
+  background-color: #256bf9;
+  padding: 32px;
+}
+
+.image-10 {
+  background-image: url("images/thumb-neil-dg.gif");
+}
+.image-11 {
+  background-image: url("images/mp-storybook-figma-atomic.png");
+  background-color: #5c47d6;
+}
+.image-12 {
+  background-color: #000;
+}
+/* Media Queries */
+
+@media (min-width: 1600px) {
+  div.all-work.image-1,
+      div.all-work.image-2,
+      /* div.all-work.image-4, */
+      div.all-work.image-6,
+      div.all-work.image-7 {
+    padding: 48px;
+  }
+
+  div.all-work.image-5 {
+    padding: 80px;
+  }
+}
+
+@media (max-width: 980px) {
+  section.all-work-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    margin-left: 48px;
+    margin-right: 48px;
+    padding-bottom: 48px;
+
+    grid-template-rows: repeat(12, minmax(400px, auto));
+    background-position: center;
+  }
+
+  div.all-work,
+  div.all-work.portrait.small,
+  div.all-work.large,
+  div.all-work.xl {
+    grid-row: auto;
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  section.all-work-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    margin-left: 48px;
+    margin-right: 48px;
+    padding-bottom: 48px;
+  }
+
+  img.all-work,
+  img.all-work.portrait.small,
+  img.all-work.large,
+  img.all-work.xl {
+    grid-row: auto;
+    grid-column: auto;
+  }
+}

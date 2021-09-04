@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Sophie Hall Design Portfolio" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sophie Hall — Marketplace Design System</title>
+
+    <link rel="icon" href="/favicon.png" />
+
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="_base.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+  </head>
+
+  <body>
+    <div class="top"></div>
+    <div class="right"></div>
+    <div class="bottom"></div>
+    <div class="left"></div>
+
+    <div class="hamburger menu-toggle dark-menu white" id="hamburger" onclick="lockScroll();">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
+
+    <header>
+      <div id="home">
+        <a href="index.html" class="toggle-theme sitetitle white" id="header">Sophie Hall</a>
+      </div>
+    </header>
+
+    <div class="slide-menu white dark-menu" id="#slideNav">
+      <nav class="main-nav">
+        <a href="about-me.html">About</a>
+        <a href="all-work.html">All Work</a>
+        <a href="http://smorgasbord.sophielisahall.com/" target="_blank">Playground</a>
+        <a href="mailto:hello@sophielisahall.com?Subject=Hello" target="_top">Contact</a>
+      </nav>
+      <div class="social">
+        <a href="https://www.pinterest.com.au/sophielisahall/" target="_blank">Pinterest</a>
+        <a href="https://www.linkedin.com/in/sophielisahall/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="wrapper-parallax">
+      <div class="sections">
+        <section
+          class="toggle-theme-top project section bg-cover project-header"
+          id="top-section"
+        >
+          <!-- Toggle Theme -->
+          <div class="toggle-theme-button">
+            <a href="#" class="dark-mode-toggle">
+              <svg width="64" height="40" viewBox="0 0 64 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="8" y="9" width="46" height="22" rx="11" stroke="black" stroke-width="2"></rect>
+                <circle cx="19" cy="20" r="6" fill="black" fill-opacity="0.5"></circle>
+                <g transform="translate(19, 20)"  class="toggle">
+                  <circle cx="0" cy="0" r="6" fill="black"></circle>
+                </g>
+                
+                <circle cx="43" cy="20" r="6" fill="black" fill-opacity="0.5"></circle>
+              </svg>
+              
+              <span>Dark theme</span>
+            </a>
+          </div>
+
+          <div class="toggle-theme container">
+            <h1 class="heading-large centered-text">Building a Design System with Storybook and React</h1>
+          </div>
+
+          <a href="#project-description" class="js-scroll scroll-down">
+            <div class="scroll-down-div"></div>
+              <svg>
+                <defs>
+                  <clipPath id="scrollDownPath" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 25.87"><path d="M4.59,18.22,5.84,17l4,3.92,1.57,1.89V7.15A4.64,4.64,0,0,0,6.63,1.94,4.71,4.71,0,0,0,1.78,6.51a4.57,4.57,0,0,0,0,.64H0A6.51,6.51,0,0,1,5.87,0l.76,0a6.53,6.53,0,0,1,6.62,6.41,6,6,0,0,1,0,.74V19.06l-.13,3.71,1.64-1.87,4-4L20,18.22l-7.7,7.65Z"/>
+                  </clipPath>
+                </defs>
+            </svg>
+          </a>
+        </section>
+
+        <section class="toggle-theme project"
+          id="project-description">
+        	<div class="block"></div>
+          <h2 class="client-title">Whispir Marketplace</h2>
+          
+          <div class="project-description-container">
+            <div class="project-intro">
+              <p class="p-xl">
+                Once the designs were signed off for Marketplace, the next step was to combine the design language, with a React component library and style guide, to start building a design system.
+              </p>
+            </div> 
+            <div class="project-details">
+              <h3 class="client ">Sector</h3>
+              <p class="normal-p client-name">Product</p>
+              <h3 class="client ">Services</h3>
+              <ul class="normal-p">
+                <li>UX and UI Design</li>
+                <li>Web development (React)</li>
+                <li>Design System Development</li>
+              </ul>
+              <h3>Website</h3>
+              <p class="normal-p">
+                <a href="https://whispir-marketplace-design-system.netlify.app/?path=/story/design-system-buttons--primary" class="underline" target="_blank"
+                  >Marketplace Storybook</a
+                >
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="white-header toggle-theme">
+          <div class="device-container toggle-theme">
+            <div class="browser-bar" style="border-color: #E5E4E9; background-color: #E5E4E9;"></div>
+              <div style="border-color: #E5E4E9;">
+                <div>
+                  <img src="images/mp-storybook-figma-atomic.png" data-src="images/mp-storybook-figma-atomic.png" style="border-left: 2px solid #E5E4E9; border-right: 2px solid #E5E4E9; border-bottom: 2px solid #E5E4E9;">
+                </div>
+              </div>
+          </div>
+        </section>
+        <div class="toggle-theme annotation-container">
+          <p class="annotation right-column">The pattern library in Figma, structured using the atomic method.</p>
+       </div>
+  
+        <div class="toggle-theme project-description-container">
+          <div class="project-description">
+            <p class="p-xl">
+              Prerequisites and Prioritisation
+            </p>
+          </div>
+          <div class="body-main">
+            <p class="normal-p">
+              Prior to getting started, I wanted to ensure a few additional things had been considered and there were robust enough design foundations to start building the react component library.
+            </p>
+            <p class="normal-p">
+              I drafted and worked through a design checklist for aspects such as accessibility, interaction and screen resolution. Then I had to prioritise what to work on first—which components had the highest impact and were easily achievable. Using an adoption metrics method, it seemed as though buttons and modals had the highest priority in terms of impact, identity and confidence. 
+            </p>
+          </div>
+        </div>
+
+        <div class="toggle-theme img-container">
+          <div class="right-column">
+            <img src="images/mp-storybook-adoption-metrics.png">
+          </div>
+        </div>
+
+      <div class="toggle-theme project-description-container">
+        <div class="project-description">
+          <p class="p-xl">
+            A common language between teams
+          </p>
+        </div>
+        <div class="body-main">
+          <p class="normal-p">
+            It's is so important to have a common language shared between design and development teams when building out a design system. 
+          </p>
+          <p class="normal-p">
+            In my Figma project, I already had all the folders structured following Brad Frost's <a href="https://bradfrost.com/blog/post/atomic-web-design" class="underline">atomic design methodology</a>. This is the same system I wanted to follow when building out the component library in Storybook.
+          </p>
+        </div>
+      </div>
+
+      <section class="project toggle-theme">
+        <div class="img-container">
+          <img src="images/mp-storybook-buttons.png" data-src="images/mp-storybook-buttons.png" style="padding: 150px;"/>
+        </div>
+      </section>
+
+        <div class="toggle-theme project-description-container">
+          <div class="project-description">
+            <p class="p-xl">
+              Developing Styled Components
+            </p>
+          </div>
+          <div class="body-main">
+            <p class="normal-p">
+              I decided to get started on my Storybook application by building out the buttons and modals as they ranked pretty high in adoption metrics and are used multiple times across the UI. I installed <a href="https://styled-components.com/" class="underline">styled-components</a> to get started on building out the Button atom.
+              <p class="normal-p">
+              There were several button types. Primary, secondary, tertiary and ghost button, plus icon buttons and a couple of link styles and each of these would need a variety of states, such as hover, focused and disabled.
+              </p>
+            </p>
+          </div>
+        </div>
+
+        <div class="toggle-theme img-container">
+          <div class="right-column">
+            <img src="images/mp-storybook-global-styles.png">
+          </div>
+        </div>
+
+        <div class="toggle-theme project-description-container">
+          <div class="project-description">
+            <p class="p-xl">
+              Global Styles
+            </p>
+          </div>
+          <div class="body-main">
+            <p class="normal-p">
+              I wanted to start by 'normalizing' the UI. I decided to do this by using styled-components to set up a global stylesheet. To normalize the CSS I installed a package called <a href="https://polished.js.org/docs//" class="underline">polished</a> which has lots of nice features such as 'hideVisually', as opposed to using display: none; in the CSS - a much better method to use for accessibility. 
+            </p>
+            <p class="normal-p">
+              Next I set up a file for the typescale. As shown below I used a base size of 16px (1em) and a '1.333 - Perfect Fourth' Type Scale, from <a href="https://type-scale.com/" class="underline">type-scale.com</a> to create uniform type styles.
+            </p>
+          </div>
+        </div>
+
+        <div class="toggle-theme img-container">
+          <img class="img-50-left" src="images/mp-storybook-type-scale.png">
+          <img class="img-50-right" src="images/mp-storybook-type-scale-vscode.png">
+       </div>
+
+        <div class="toggle-theme project-description-container">
+          <div class="project-description">
+            <p class="p-xl">
+              Creating Themes
+            </p>
+          </div>
+          <div class="body-main">
+            <p class="normal-p">
+              I wanted to create a dark and light theme as it is quite popular these days for the user to want to switch. Therefore I needed to create different states depending on the background colour and set this up with a toggle switch.
+            </p>
+          </div>
+        </div>
+
+        <div class="toggle-theme img-container">
+          <img class="img-50-left" src="images/mp-storybook-button-states.png">
+          <img class="img-50-right" src="images/mp-storybook-button-themes.png">
+       </div>
+
+        <div class="toggle-theme project-description-container">
+          <div class="project-description">
+            <p class="p-xl">
+              Creating a modal
+            </p>
+          </div>
+          <div class="body-main">
+            <p class="normal-p">
+              The next component I decided to create was the modal. This was a molecule, to be built using the button atom and a combination of foundational elements such as an icon, an illustration and a couple of type styles.
+            </p>
+          </div>
+        </div>
+
+        <section class="toggle-theme top-pad">
+          <div class="device-container toggle-theme">
+            <div class="browser-bar" style="border-color: #E5E4E9; background-color: #E5E4E9;"></div>
+            <div id="video-device" style="border-color: #fff;">
+              <video width="100%" autoplay muted loop style="object-fit: cover;">
+                <source src="video/mp-storybook-light-dark-theme.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div class="annotation-container ">
+            <p class="annotation right-column">Testing the Default and Dark themes on the modal to make sure that the button colour and background were updating properly when toggled.</p>
+          </div>
+        </section>
+
+        <section class="toggle-theme top-pad">
+          <div class="device-container toggle-theme">
+            <div class="browser-bar" style="border-color: #E5E4E9; background-color: #E5E4E9;"></div>
+            <div id="video-device" style="border-color: #fff;">
+              <video width="100%" autoplay muted loop style="object-fit: cover;">
+                <source src="video/mp-storybook-modal-animation.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div class="annotation-container">
+            <p class="annotation right-column">Using the useTransition hook from the react-spring animation library, to experiment with transitions on the modal, depending on the users action.</p>
+          </div>
+        </section>
+
+        <section class="toggle-theme top-pad">
+          <div class="device-container caption">
+            <div class="browser-bar" style="border-color: #E5E4E9; background-color: #E5E4E9;"></div>
+            <div id="video-device" style="border-color: #fff;">
+              <video width="100%" autoplay muted loop style="object-fit: cover;">
+                <source src="video/mp-storybook-toggle-modal-fade.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div class="annotation-container">
+            <p class="annotation right-column">I used the useSpring hook to fade the modal in and out as this is the most user friendly micro-interaction.</p>
+          </div>
+        </section>
+
+        <div class="toggle-theme project-description-container">
+          <div class="project-description">
+            <p class="p-xl">
+              Getting Storybook set up
+            </p>
+          </div>
+          <div class="body-main">
+            <p class="normal-p">
+              I installed Storybook to document my code and use it to write the style guide. I also needed to install a few addons to preview the different states, documentation, the themes and accessibility—Using the 'knobs' add-on to preview the disabled state for example, also 'storybook-addon-a11y' add-on to test the accessibility of my components.
+            </p>
+          </div>
+        </div>
+        
+        <section class="toggle-theme top-pad">
+          <div class="device-container">
+            <div class="browser-bar" style="border-color: #E5E4E9; background-color: #E5E4E9;"></div>
+            <div id="video-device" style="border-color: #E5E4E9;">
+              <video width="100%" autoplay muted loop style="object-fit: cover;">
+                <source src="video/mp-storybook-button-states.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </section>
+
+          <div class="toggle-theme project-description-container">
+            <div class="project-description">
+              <p class="p-xl">
+                Customising and deploying Storybook
+              </p>
+            </div>
+            <div class="body-main">
+              <p class="normal-p">
+                I customised the site a bit, updated the logo and some of the colours etc so the shell looked a bit more on brand. I then pushed my code to a git repository and used netlify to host the site. You can check it out <a href="https://whispir-marketplace-design-system.netlify.app/?path=/story/design-system-buttons--primary" class="underline">here</a>. 
+              </p>
+            </div>
+          </div>
+
+          <section class="toggle-theme white-header section-pad">
+            <div class="device-container">
+              <div class="browser-bar" style="border-color: #E5E4E9; background-color: #E5E4E9;"></div>
+                <div style="border-color: #E5E4E9;">
+                  <div>
+                    <img src="images/mp-storybook-final.png" data-src="images/mp-storybook-final.png" style="border-left: 2px solid #E5E4E9; border-right: 2px solid #E5E4E9; border-bottom: 2px solid #E5E4E9;">
+                  </div>
+                </div>
+            </div>
+          </section>
+         
+        <section class="prev-next-section">
+          <div class="prev-project">
+            <a href="whispir-marketplace.html">
+              <img class="prev-arrow arrow" src="images/prev-arrow.svg" />
+              <span class="previous-project hide-word" data-id="Whispir Marketplace">Previous</span>
+            </a>
+          </div>
+
+          <div class="project-grid">
+            <a href="all-work.html">
+              <img class="grid-icon" src="images/project-grid.svg" />
+            </a>
+          </div>
+
+          <div class="next-project">
+            <a href="omg-app.html">
+              <span class="next-project hide-word" data-id="Whispir Hackathon">Next</span>
+              <img class="next-arrow arrow" src="images/next-arrow.svg" />
+            </a>
+          </div>
+        </section>
+
+        <footer class="footer" id="footer">
+          <div class="footer-details">
+            <p>Design & code by Sophie Hall</p>
+            <p class="last">Melbourne, Australia</p>
+            <p>T 0429 191 235</p>
+            <p>E <a href="mailto:hello@sophielisahall.com">hello@sophielisahall.com</a></p>
+          </div>
+          <div class="footer-copyright">
+            <p>© Sophie Hall,
+              <script type="text/javascript">
+                document.write(new Date().getFullYear());
+              </script>
+            </p>
+          </div>
+          <div class="footer-social">
+            <a href="https://github.com/sophiehall" target="_blank">Github</a>        
+            <a href="https://www.pinterest.com.au/sophielisahall/" target="_blank">Pinterest</a>
+            <a href="https://www.linkedin.com/in/sophielisahall/" target="_blank">LinkedIn</a>
+          </div>
+            <a href="section#top-section" class="js-scroll scroll-up">
+              <div class="scroll-up-div"></div>
+                <svg>
+                  <defs>
+                    <clipPath id="scrollUpPath" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 25.87"><path d="M12.3,0,20,7.7,18.77,8.93,14.83,5,13.19,3.14l0,3.69V18.74a6.49,6.49,0,0,1-5.81,7.1c-.26,0-.51,0-.77,0A6.49,6.49,0,0,1,0,19.52q0-.39,0-.78H1.81A4.71,4.71,0,0,0,6,23.93a4.56,4.56,0,0,0,.64,0,4.69,4.69,0,0,0,4.81-4.57,4.56,4.56,0,0,0,0-.64V6.83l.13-3.64h-.13L9.78,5,5.91,8.93,4.59,7.7Z"/>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </a>
+        </footer>
+    
+    </div>
+
+    <script src="waypoints.min.js"></script>
+    <script src="https://unpkg.com/in-view@0.6.1/dist/in-view.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

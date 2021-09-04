@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,500,500i');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+
+/* @font-face {
+    font-family: Media77 Regular;
+    src: url(media77-regular.woff);
+} */
+
+/* @font-face {
+    font-family: Media77 Medium;
+    src: url(media77-medium.woff);
+} */
+
+@font-face {
+    font-family: Graphik Regular;
+    src: url(fonts/graphik-regular.woff);
+}
+
+
+@font-face {
+    font-family: Graphik Medium;
+    src: url(fonts/graphik-medium.woff);
+}
+
+
+@font-face {
+    font-family: Graphik Semibold;
+    src: url(fonts/graphik-semibold.woff);
+}
+
+html,
+input {
+	/* this smooths our fonts nicely on higher density screens */
+  -webkit-font-smoothing: antialiased;
+}
