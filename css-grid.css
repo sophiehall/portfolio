@@ -166,8 +166,8 @@ div.all-work.image-12 {
     margin-left: 48px;
     margin-right: 48px;
     padding-bottom: 48px;
-
-    grid-template-rows: repeat(12, minmax(400px, auto));
+/* TODO: Update each time you add a new project */
+    grid-template-rows: repeat(11, minmax(400px, auto));
     background-position: center;
   }
 

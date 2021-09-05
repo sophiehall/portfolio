@@ -275,10 +275,14 @@
     padding-top: 48px;
   }
   div.annotation-container {
-    padding: 48px 24px;
+    padding: 24px 24px;
+  }
+  .right-column {
+    padding-left: 0;
+    margin-left: 0;
   }
   div.project-description-container {
-    padding: 48px 24px;
+    padding: 24px 24px;
   }
   div.img-container {
     padding-left: 24px;
@@ -290,7 +294,10 @@
     padding-right: 48px;
   }
   .device-container {
-    padding: 48px 24px;
+    padding: 24px 24px;
+  }
+  .device-container.caption {
+    padding: 0 24px;
   }
   .img-50-right {
     width: 100%;

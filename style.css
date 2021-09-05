@@ -1206,20 +1206,6 @@ section.toggle-theme-top {
   color: var(--text-color);
 }
 
-/* Grid bg image not working - watch tutorial */
-/* section.toggle-theme-top {
-  background-image: url("images/mp-storybook-grid.svg");
-  background-position: center center;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-
-  transform: translate(0, 0);
-  transition: transform 0.5s;
-} */
-
 .dark-menu.hamburger .line {
   background-color: var(--text-color);
 }
@@ -1230,7 +1216,8 @@ a#header.toggle-theme.sitetitle {
 
 section.toggle-theme,
 div.toggle-theme,
-div.device-contaner {
+div.device-contaner,
+div.block {
   background-color: var(--main-color);
   color: var(--text-color);
 }
